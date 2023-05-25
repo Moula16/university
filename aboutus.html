@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0f09b8c3e1.js" crossorigin="anonymous"></script>
+
+
+
+
+</head>
+<body>
+    <section class="header-about">
+        <nav>
+            <a href="#"> <img src="logo.jpg" ></a>
+            <div class="nav-link" id="navlink">
+                <i class="fa-solid fa-xmark" onclick="hidenmenu ()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="aboutus.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="blogs.html">BLOGS</a></li>
+                    <li><a href="contact us.html">CONTACT us</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu ()"></i>
+        </nav>
+        <div class="text">
+            <h1>ABOUT us</h1>
+        </div>
+
+    </section>
+    <section class="info">
+        <div class="row">
+            <div class="info-heading">
+            <h1>We Are The Future EASY</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, assumenda nemo impedit, quam dolores mollitia vitae architecto aut, cumque deserunt et nulla ducimus atque quos quia aperiam voluptas esse totam?</p>
+            <a href="" class="btn1">MORE DETAILS</a>
+            </div>
+            <div class="info-heading">
+                <img src="about.jpg" alt="">
+            </div>
+
+        </div>
+    </section>
+<section class="footer">
+<h4>ABOUT us</h4>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error officia hic sapiente quod. Tempore, natus! Libero distinctio minima quidem voluptas iure,
+    laudantium unde sit aspernatur, cumque eaque sequi obcaecati at.</p>
+<div class="social">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-linkedin"></i>
+    <i class="fa fa-youtube"></i>
+</div>
+<p>Made By Abd El Moula <i class="fa fa-heart-o" style=color:red;></i> thank you</p>
+</section>
+    <script>
+ var navlink=document.getElementById("navlink");
+ function hidenmenu(){
+    navlink.style.right = "-200px"
+ }
+function showmenu(){
+    navlink.style.right = "0px"
+}
+    </script>
+</body>
+</html>
